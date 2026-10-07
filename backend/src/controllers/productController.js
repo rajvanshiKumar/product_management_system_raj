@@ -1,5 +1,5 @@
 const productService = require("../services/productService");
-require("../controllers/productController.jsx");
+require("../controllers/productController.js");
 const ApiError = require("../utils/ApiError");
 
 // GET /api/products

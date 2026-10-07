@@ -1,5 +1,5 @@
+//const Product = require("./Product");
 const Product = require("../models/Product");
-
 // Get all products
 const getAllProducts = async (filters = {}) => {
   const query = {};
@@ -9,15 +9,15 @@ const getAllProducts = async (filters = {}) => {
       {
         productName: {
           $regex: filters.search,
-          $options: "i"
-        }
+          $options: "i",
+        },
       },
       {
         sku: {
           $regex: filters.search,
-          $options: "i"
-        }
-      }
+          $options: "i",
+        },
+      },
     ];
   }
 
@@ -48,14 +48,10 @@ const createProduct = async (productData) => {
 
 // Update product
 const updateProduct = async (id, productData) => {
-  return await Product.findByIdAndUpdate(
-    id,
-    productData,
-    {
-      new: true,
-      runValidators: true
-    }
-  );
+  return await Product.findByIdAndUpdate(id, productData, {
+    new: true,
+    runValidators: true,
+  });
 };
 
 // Delete product
@@ -68,5 +64,5 @@ module.exports = {
   getProductById,
   createProduct,
   updateProduct,
-  deleteProduct
+  deleteProduct,
 };
