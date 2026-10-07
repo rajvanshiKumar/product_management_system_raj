@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "productName": "iPhone 15",
+    "sku": "IPH15-001",
+    "description": "Apple iPhone 15 with 128GB storage",
+    "price": 69999,
+    "stock": 25,
+    "category": "Electronics",
+    "subCategory": "Mobile",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "productName": "Samsung Galaxy S24",
+    "sku": "SAM-S24-001",
+    "description": "Samsung Galaxy S24 smartphone",
+    "price": 74999,
+    "stock": 18,
+    "category": "Electronics",
+    "subCategory": "Mobile",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "productName": "MacBook Air M3",
+    "sku": "MAC-M3-001",
+    "description": "Apple MacBook Air with M3 chip",
+    "price": 114999,
+    "stock": 10,
+    "category": "Electronics",
+    "subCategory": "Laptop",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "productName": "Dell Inspiron 15",
+    "sku": "DEL-INS-001",
+    "description": "Dell Inspiron 15 laptop",
+    "price": 58999,
+    "stock": 15,
+    "category": "Electronics",
+    "subCategory": "Laptop",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "productName": "Sony WH-1000XM5",
+    "sku": "SON-WH-001",
+    "description": "Wireless noise cancelling headphones",
+    "price": 29999,
+    "stock": 8,
+    "category": "Electronics",
+    "subCategory": "Headphones",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "productName": "Nike Air Max",
+    "sku": "NIK-AIR-001",
+    "description": "Nike Air Max running shoes",
+    "price": 8999,
+    "stock": 30,
+    "category": "Fashion",
+    "subCategory": "Shoes",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "productName": "Adidas Running Shoes",
+    "sku": "ADI-RUN-001",
+    "description": "Adidas lightweight running shoes",
+    "price": 6999,
+    "stock": 20,
+    "category": "Fashion",
+    "subCategory": "Shoes",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "productName": "Levi's Denim Jacket",
+    "sku": "LEV-DEN-001",
+    "description": "Classic Levi's denim jacket",
+    "price": 4999,
+    "stock": 12,
+    "category": "Fashion",
+    "subCategory": "Jackets",
+    "status": "Inactive"
+  },
+  {
+    "id": 9,
+    "productName": "Office Chair",
+    "sku": "CHR-OFF-001",
+    "description": "Ergonomic office chair",
+    "price": 8999,
+    "stock": 14,
+    "category": "Furniture",
+    "subCategory": "Chair",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "productName": "Wooden Study Table",
+    "sku": "TAB-STU-001",
+    "description": "Wooden study table for home and office",
+    "price": 12999,
+    "stock": 7,
+    "category": "Furniture",
+    "subCategory": "Table",
+    "status": "Inactive"
+  }
+]
